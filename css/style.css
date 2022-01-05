@@ -1,0 +1,24 @@
+body{
+    /* background-color: blueviolet; */
+}
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+.box-Time h1{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* ================================================================ */
+
+
+.item{
+    transition: .5s ease-in-out;
+}
+.item:hover{
+    filter: brightness(10%);
+}
